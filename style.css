@@ -1,0 +1,491 @@
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Audiowide;
+}
+
+p {
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.motto {
+	color: #fefefe;
+	font-family: 'Cormorant Garamond';
+}
+
+.navbar {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	background-color: #D4D7DE;
+	width: 100%;
+	z-index: 1;
+}
+
+.nav {
+	display: flex;
+	justify-content: right;
+	list-style: none;
+	margin-right: 15%;
+	font-family: 'Cormorant Garamond'
+}
+
+.logo {
+	flex: 1 1 auto;
+	margin-left: 10%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: 'Cormorant Garamond'
+}
+
+a {
+	margin: 15px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: #000;
+}
+
+.banner-area {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	/* position: relative; */
+	background-image: url(background-image.jpg);
+	/* width: 100%;
+    height: 100vh; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* text-align: center;
+    vertical-align: middle; */
+}
+
+.TitleOverImg {
+	letter-spacing: 0.07em;
+	color: white;
+	font-size: 2.5em;
+	font-family: 'Cormorant Garamond';
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.about-area,
+.job-area,
+.service-area,
+.qualifications-area,
+.form-area {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	min-height: 400px;
+}
+
+.text-part {
+	width: 65%;
+	height: 80%;
+}
+
+.about-area {
+	background-color: #fefefe;
+}
+
+.job-area {
+	background-color: #262626;
+	color: #fff;
+}
+
+.service-area {
+	background-color: #fefefe;
+}
+
+.qualifications-area {
+	background-color: #262626;
+	color: #fff;
+}
+
+.form-area {
+	background-color: #fff;
+}
+
+#image1 {
+	background-image: url("image-4.jpg");
+	width: 500px;
+	height: 338px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#image1:hover {
+	background-image: url("image-2.jpg");
+}
+
+body {
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.regform {
+	width: 900px;
+	background-color: rgb(0, 0, 0, 0.6);
+	margin: auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.main {
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 900px;
+	margin: auto;
+}
+
+form {
+	padding: 10px;
+}
+
+#name {
+	width: 100%;
+	height: 100px;
+}
+
+.name {
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.firstname {
+	position: relative;
+	left: 200px;
+	top: -48px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+}
+
+.lastname {
+	position: relative;
+	left: 417px;
+	top: -93px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.firstlabel {
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 203px;
+	top: -45px;
+}
+
+.lastlabel {
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 203px;
+	top: -45px;
+}
+
+.address {
+	position: relative;
+	left: 200px;
+	top: -48px;
+	line-height: 40px;
+	width: 480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.postalcode {
+	position: relative;
+	left: 200px;
+	top: -48px;
+	line-height: 40px;
+	width: 100px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.email {
+	position: relative;
+	left: 200px;
+	top: -48px;
+	line-height: 40px;
+	width: 480px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.Code {
+	position: relative;
+	left: 200px;
+	top: -48px;
+	line-height: 40px;
+	width: 95px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.number {
+	position: relative;
+	left: 200px;
+	top: -48px;
+	line-height: 40px;
+	width: 255px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.phone-number {
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+	left: -100px;
+	top: -2px;
+}
+
+.option {
+	position: relative;
+	left: 200px;
+	top: -48px;
+	line-height: 40px;
+	width: 380px;
+	height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+}
+
+.option option {
+	font-size: 20px;
+}
+
+.customer {
+	margin-left: 25px;
+	color: white;
+	font-size: 18px;
+}
+
+.radio {
+	display: inline-block;
+	padding-right: 70px;
+	font-size: 25px;
+	margin-left: 25px;
+	margin-top: 15px;
+	color: white;
+}
+
+.radio input {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+}
+
+button {
+	background-color: #3BAF9F;
+	display: block;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	border-radius: 12px;
+	border: 2px solid #366473;
+	padding: 14px 110px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+}
+
+button:hover {
+	background-color: #5390F5;
+}
+
+
+/* Style for the upload resume button */
+
+
+/* custom-file-input {
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+              } */
+
+.fontsize {
+	font-size: 120%;
+	line-height: 200%;
+	font-family: 'Cormorant Garamond'
+}
+
+#tableforduties {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tableforduties td,
+#tableforduties th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tableforduties tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#tableforduties tr:hover {
+	background-color: #ddd;
+}
+
+#tableforduties th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #4CAF50;
+	color: white;
+}
+
+.leftfortable {
+	text-align: left;
+}
+
+.centerforth {
+	text-align: center;
+}
+
+
+/* Styling for Essential Qualifications section */
+
+table.essential tr td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table.essential caption {
+	background-color: #4CAF50;
+	color: white;
+}
+
+table.essential {
+	width: 100%;
+}
+
+table.nested-essential {
+	width: 100%;
+}
+
+table.nested-essential tr:hover {
+	background-color: grey;
+}
+
+.seeking {
+	display: flex;
+	flex-direction: row;
+}
+
+.travel {
+	margin: 25px 0 10px 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.checkbox-field {
+	padding: 15px 5px 0 5px;
+}
+
+.radio-field {
+	font-size: 0.95em;
+	color: white;
+}
+
+.checkbox {
+	display: inline-block;
+	padding-right: 70px;
+	font-size: 25px;
+	margin-left: 15px;
+	margin-top: 15px;
+	color: white;
+}
+
+.logo-image {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: -6px;
+}
+
+.font-color {
+	color: white;
+}
+
+.logo-image {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: -6px;
+}
+
+.font-style {
+	font-family: 'Cormorant Garamond';
+	font-size: 140%;
+}
+
